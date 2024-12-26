@@ -42,6 +42,13 @@ npm install react-router-dom
 c. Install React Icons
 npm install react-icons
 
+
+Also install these to fonts
+
+npm install @fontsource/metropolis
+
+npm install @fontsource/poppins
+
 6. Start the Development Server
 After installing the dependencies, start the project by running:
 
