@@ -1,0 +1,152 @@
+.astrologer-card {
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.astrologer-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.astrologer-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid blue; /* Default border color */
+}
+
+.astrologer-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.old-rate {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.new-rate {
+  color: red;
+  font-weight: bold;
+}
+
+.chat-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wait-time {
+  font-size: 0.9rem;
+  color: red;
+}
+
+.astrologer-chat-btn {
+  border-width: 2px;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  /* Maintain the horizontal layout with image on the left */
+  .astrologer-card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .astrologer-image {
+    margin-right: 15px; /* Add some space between the image and details */
+  }
+
+  .chat-section {
+    align-self: flex-end;
+  }
+}
+.astrologer-details {
+  margin: 0; /* Remove any extra margin */
+  padding: 0; /* Remove any extra padding */
+}
+
+.astrologer-name,
+.astrologer-expertise,
+.astrologer-languages,
+.astrologer-experience {
+  margin: 0; /* Remove margin for each element */
+  padding: 0; /* Remove padding for each element */
+}
+
+.astrologer-rate {
+  margin: 0; /* Remove margin for the rate section */
+  padding: 0; /* Remove padding for the rate section */
+}
+
+.astrologer-rate span {
+  margin-right: 5px; /* Optional: Add a small margin between old and new rates */
+}
+
+@media (min-width: 769px) {
+  /* Maintain the horizontal layout with image on the left */
+  .chat-section{
+    padding-top: 55px;
+  }
+ 
+}
+.astrologer-details p{
+  font-size: 14px;
+  color: #0E233980;
+  font-weight: 400;
+}
+
+.astrologer-card {
+  position: relative; /* Make the card the reference point for absolute positioning */
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verified-icon {
+  position: absolute;
+  top: 10px; /* Adjust for top distance */
+  right: 10px; /* Adjust for right distance */
+  width: 20px; /* Set the size of the icon */
+  height: 20px;
+}
+
+.chat-section a{
+  text-decoration: none;
+  font-weight: 400;
+  font-family: 'Metropolis', sans-serif;
+  width: 55px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 6px;
+}
+.wait-time{
+  color: #EF5862;
+  font-family: 'Poppins', sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+.rating-astro{
+color: #0E2339;
+font-family: 'Metropolis', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+}
+.heading-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #0E2339;
+  
+}

@@ -1,0 +1,145 @@
+/* Header Styling */
+
+.header-navbar {
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    padding: 0.5rem 1rem;
+    background-color: #FFFFFF;
+  }
+  
+  /* Ensure the logo stays left */
+  .logo {
+    margin-right: auto;
+  }
+  
+  /* Navigation link styles */
+  .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #0E2339;
+     text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Bootstrap default primary color */
+    font-weight: bold;
+  }
+  
+  /* Get App Button */
+  .get-app-btn {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Remove underline and bullets from links */
+  .navbar-nav .nav-link {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Metropolis', sans-serif;
+    color: #0E2339;
+  }
+  
+  @media (max-width: 991px) {
+  
+  
+    .mobile-toggle {
+      display: block;
+      font-size: 2rem;
+      color: #333;
+      border: none;
+      background: none;
+    }
+   
+  }
+  /* For mobile view: Adjust hamburger menu and show toggle icon */
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      display: none;
+    }
+  
+    .navbar-collapse.show {
+      display: block;
+    }
+  
+    .mobile-toggle {
+      /* display: block; */
+      font-size: 2rem;
+      color: #333;
+      border: none;
+      background: none;
+    }
+    .drop-down{
+      max-width:75px;
+    }
+    .nav-link{
+      padding: 0px;
+      padding-top: 15px;
+    }
+    .nav-link :hover{
+      font-weight: bold;
+    }
+    .btn-div{
+      margin-top:10px;
+    }
+    .get-app-btn{
+      max-width: 110px;
+    }
+  }
+  @media (min-width: 992px) {
+    .mobile-toggle {
+      display: none;
+    }
+  }
+  
+  /* For desktop view: Hide the toggle icon and show the menu */
+  @media (min-width: 769px) {
+    /* .mobile-toggle {
+      display: none;
+    } */
+    .header-navbar {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+    /* .navbar-collapse {
+      display: flex !important;
+      margin-right: 5px;
+    } */
+    .navbar-nav .nav-link{
+      padding-right: 35px;
+    }
+    .drop-down{
+      margin-right: 35px;
+    }
+    /* 
+     .get-app-btn{
+      margin-left: 35px;
+     } */
+    
+  }
+.drop-down{
+    border:1px solid white;
+    height: 27px;
+    width: 90px;
+    margin-top: 5px;
+    background-color: white;
+  
+}  
+.drop-down .drop-option{
+  padding-top: 1px;
+  text-align: center;
+  margin-top: -7px;
+}
+.get-app-btn{
+
+  color: white;
+  
+  text-decoration: none;
+}
+.btn-div{
+  height: 27px;
+  width: 90px;
+  border-radius: 10px;
+  background-color: #EF5862;
+  margin-top: 5px;
+}
+
