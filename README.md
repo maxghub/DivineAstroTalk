@@ -10,29 +10,38 @@ After cloning the repository, navigate into the project folder:
 
 
 cd DivineAstroTalk
+
+
 3. Install Node.js and npm (if not already installed)
 Ensure that Node.js and npm are installed on your system. You can check their versions by running:
 
 node -v
 npm -v
+
 If they are not installed, download Node.js from here.
 
 4. Install Project Dependencies
 Once you are inside the project directory, run the following command to install all the necessary dependencies (from package.json):
 
 npm install
+
+
 This will install all the packages required to run the project.
 
 5. Check for Required Packages
+   
 The project should already have the required packages installed (Bootstrap, React-Bootstrap, React Icons, React Router, etc.) based on the package.json. However, if you need to install them manually, use the following commands:
 
 a. Install Bootstrap and React-Bootstrap
 
 npm install bootstrap react-bootstrap
+
 b. Install React Router DOM
 npm install react-router-dom
+
 c. Install React Icons
 npm install react-icons
+
 6. Start the Development Server
 After installing the dependencies, start the project by running:
 
